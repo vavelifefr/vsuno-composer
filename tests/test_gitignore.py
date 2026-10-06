@@ -15,7 +15,7 @@ class IgnoreTests(unittest.TestCase):
             folder = Path(tmp)
             shutil.copyfile(ROOT/'.gitignore',folder/'.gitignore')
             subprocess.run([git,'-C',str(folder),'init','--quiet'],check=True,capture_output=True)
-            for relative in ['personal/references/example.json','personal/tracks/example.json','personal/feedback/example.json','prompts/example.txt','work/report.json']:
+            for relative in ['personal/references/example.json','personal/tracks/example.json','personal/feedback/example.json','prompts/example.txt','work/report.json','.vsuno-stage.txt']:
                 result = subprocess.run([git,'-C',str(folder),'check-ignore','--no-index','-q','--',relative],capture_output=True)
                 self.assertEqual(result.returncode,0,relative)
             for relative in ['SKILL.md','references/STYLES_lib.md','tools/suno-fill.user.js','vsuno.cmd']:

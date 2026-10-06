@@ -1,6 +1,7 @@
 /personal/
 /prompts/
 /work/
+/.vsuno-stage.txt
 __pycache__/
 *.pyc
 *.zip
