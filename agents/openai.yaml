@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vave Suno Composer"
+  short_description: "Suno prompts, original lyrics, remixes and safe revisions"
+  default_prompt: "Use $vsuno-composer to compose a Suno track from my brief."

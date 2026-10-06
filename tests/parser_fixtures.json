@@ -1,0 +1,162 @@
+[
+  {
+    "id": "short-instrumental",
+    "chunk": "TRACK:->\n\nTest composition\n\nLYRICS:->\n\n[Intro]\n[Instrumental]\n\nSTYLES:->\n\nAcid house, 124 BPM, resonant TB-303 bass\n\nMOREOPTIONS:->\n\nVocal Gender: none | Duration: Auto | Max Mode: Off | Weirdness: 40% | Style Influence: 80% | Variety: Off | Personalize: Off\nExclude: ambient\n\nINFO:->\n\nsummary: fixture; model: v6-mini; lang: none; gen_model: unknown; gen_time: ?",
+    "expected": {
+      "TRACK": "Test composition",
+      "LYRICS": "[Intro]\n[Instrumental]",
+      "STYLES": "Acid house, 124 BPM, resonant TB-303 bass",
+      "MOREOPTIONS": "Vocal Gender: none | Duration: Auto | Max Mode: Off | Weirdness: 40% | Style Influence: 80% | Variety: Off | Personalize: Off\nExclude: ambient"
+    },
+    "model": "v6-mini",
+    "exclude": "ambient",
+    "counts": {
+      "LYRICS": 22,
+      "STYLES": 41
+    }
+  },
+  {
+    "id": "cyrillic",
+    "chunk": "TRACK:->\n\nНовый адрес\n\nLYRICS:->\n\n[Verse]\nЯ оставил ключи у двери\nТы вернёшься — тогда забери\n\nSTYLES:->\n\nAcid house, 124 BPM, resonant TB-303 bass\n\nMOREOPTIONS:->\n\nVocal Gender: none | Duration: Auto | Max Mode: Off | Weirdness: 40% | Style Influence: 80% | Variety: Off | Personalize: Off\nExclude: ambient\n\nINFO:->\n\nsummary: fixture; model: v6-mini; lang: none; gen_model: unknown; gen_time: ?",
+    "expected": {
+      "TRACK": "Новый адрес",
+      "LYRICS": "[Verse]\nЯ оставил ключи у двери\nТы вернёшься — тогда забери",
+      "STYLES": "Acid house, 124 BPM, resonant TB-303 bass",
+      "MOREOPTIONS": "Vocal Gender: none | Duration: Auto | Max Mode: Off | Weirdness: 40% | Style Influence: 80% | Variety: Off | Personalize: Off\nExclude: ambient"
+    },
+    "model": "v6-mini",
+    "exclude": "ambient",
+    "counts": {
+      "LYRICS": 59,
+      "STYLES": 41
+    }
+  },
+  {
+    "id": "bilingual",
+    "chunk": "TRACK:->\n\nПоворот\n\nLYRICS:->\n\n[Verse]\nНовый день изменил разговор\nЯ закрыл за собой коридор\n[Bridge]\nI put the folded coat away\nAnd chose a different road today\n\nSTYLES:->\n\nAcid house, 124 BPM, resonant TB-303 bass\n\nMOREOPTIONS:->\n\nVocal Gender: none | Duration: Auto | Max Mode: Off | Weirdness: 40% | Style Influence: 80% | Variety: Off | Personalize: Off\nExclude: ambient\n\nINFO:->\n\nsummary: fixture; model: v6-mini; lang: none; gen_model: unknown; gen_time: ?",
+    "expected": {
+      "TRACK": "Поворот",
+      "LYRICS": "[Verse]\nНовый день изменил разговор\nЯ закрыл за собой коридор\n[Bridge]\nI put the folded coat away\nAnd chose a different road today",
+      "STYLES": "Acid house, 124 BPM, resonant TB-303 bass",
+      "MOREOPTIONS": "Vocal Gender: none | Duration: Auto | Max Mode: Off | Weirdness: 40% | Style Influence: 80% | Variety: Off | Personalize: Off\nExclude: ambient"
+    },
+    "model": "v6-mini",
+    "exclude": "ambient",
+    "counts": {
+      "LYRICS": 130,
+      "STYLES": 41
+    }
+  },
+  {
+    "id": "boundaries",
+    "chunk": "TRACK:->\n\nTest composition\n\nLYRICS:->\n\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n\nSTYLES:->\n\nbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\n\nMOREOPTIONS:->\n\nVocal Gender: none | Duration: Auto | Max Mode: Off | Weirdness: 40% | Style Influence: 80% | Variety: Off | Personalize: Off\nExclude: ambient\n\nINFO:->\n\nsummary: fixture; model: v6-mini; lang: none; gen_model: unknown; gen_time: ?",
+    "expected": {
+      "TRACK": "Test composition",
+      "LYRICS": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "STYLES": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "MOREOPTIONS": "Vocal Gender: none | Duration: Auto | Max Mode: Off | Weirdness: 40% | Style Influence: 80% | Variety: Off | Personalize: Off\nExclude: ambient"
+    },
+    "model": "v6-mini",
+    "exclude": "ambient",
+    "counts": {
+      "LYRICS": 5000,
+      "STYLES": 1000
+    }
+  },
+  {
+    "id": "emoji",
+    "chunk": "TRACK:->\n\nTest composition\n\nLYRICS:->\n\n[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀\n\nSTYLES:->\n\nAcid house, 124 BPM, resonant TB-303 bass\n\nMOREOPTIONS:->\n\nVocal Gender: none | Duration: Auto | Max Mode: Off | Weirdness: 40% | Style Influence: 80% | Variety: Off | Personalize: Off\nExclude: ambient\n\nINFO:->\n\nsummary: fixture; model: v6-mini; lang: none; gen_model: unknown; gen_time: ?",
+    "expected": {
+      "TRACK": "Test composition",
+      "LYRICS": "[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀[Intro]\n😀",
+      "STYLES": "Acid house, 124 BPM, resonant TB-303 bass",
+      "MOREOPTIONS": "Vocal Gender: none | Duration: Auto | Max Mode: Off | Weirdness: 40% | Style Influence: 80% | Variety: Off | Personalize: Off\nExclude: ambient"
+    },
+    "model": "v6-mini",
+    "exclude": "ambient",
+    "counts": {
+      "LYRICS": 250,
+      "STYLES": 41
+    }
+  },
+  {
+    "id": "fence-crlf",
+    "chunk": "```text\r\nTRACK:->\r\n\r\nTest composition\r\n\r\nLYRICS:->\r\n\r\n[Intro]\r\n[Instrumental]\r\n\r\nSTYLES:->\r\n\r\nAcid house, 124 BPM, resonant TB-303 bass\r\n\r\nMOREOPTIONS:->\r\n\r\nVocal Gender: none | Duration: Auto | Max Mode: Off | Weirdness: 40% | Style Influence: 80% | Variety: Off | Personalize: Off\r\nExclude: ambient\r\n\r\nINFO:->\r\n\r\nsummary: fixture; model: v6-mini; lang: none; gen_model: unknown; gen_time: ?\r\n```",
+    "expected": {
+      "TRACK": "Test composition",
+      "LYRICS": "[Intro]\n[Instrumental]",
+      "STYLES": "Acid house, 124 BPM, resonant TB-303 bass",
+      "MOREOPTIONS": "Vocal Gender: none | Duration: Auto | Max Mode: Off | Weirdness: 40% | Style Influence: 80% | Variety: Off | Personalize: Off\nExclude: ambient"
+    },
+    "model": "v6-mini",
+    "exclude": "ambient",
+    "counts": {
+      "LYRICS": 22,
+      "STYLES": 41
+    }
+  },
+  {
+    "id": "negative-styles",
+    "chunk": "TRACK:->\n\nTest composition\n\nLYRICS:->\n\n[Intro]\n[Instrumental]\n\nSTYLES:->\n\nAcid house, 124 BPM, resonant TB-303 bass\n\nMOREOPTIONS:->\n\nVocal Gender: none | Duration: Auto | Max Mode: Off | Weirdness: 40% | Style Influence: 80% | Variety: Off | Personalize: Off\nExclude: hardstyle, trap\n\nINFO:->\n\nsummary: fixture; model: v6-mini; lang: none; gen_model: unknown; gen_time: ?",
+    "expected": {
+      "TRACK": "Test composition",
+      "LYRICS": "[Intro]\n[Instrumental]",
+      "STYLES": "Acid house, 124 BPM, resonant TB-303 bass",
+      "MOREOPTIONS": "Vocal Gender: none | Duration: Auto | Max Mode: Off | Weirdness: 40% | Style Influence: 80% | Variety: Off | Personalize: Off\nExclude: hardstyle, trap"
+    },
+    "model": "v6-mini",
+    "exclude": "hardstyle, trap",
+    "counts": {
+      "LYRICS": 22,
+      "STYLES": 41
+    }
+  },
+  {
+    "id": "explicit-duet",
+    "chunk": "TRACK:->\n\nTest composition\n\nLYRICS:->\n\n[Verse]\n[Male Vocal: rapid rap delivery]\nНовый поворот\n[Chorus]\n[Female Vocal: whispering]\nНас дорога ждёт\n\nSTYLES:->\n\nMale rap verses, female whispered chorus\n\nMOREOPTIONS:->\n\nVocal Gender: none | Duration: Auto | Max Mode: Off | Weirdness: 40% | Style Influence: 80% | Variety: Off | Personalize: Off\nExclude: ambient\n\nINFO:->\n\nsummary: fixture; model: v6-mini; lang: none; gen_model: unknown; gen_time: ?",
+    "expected": {
+      "TRACK": "Test composition",
+      "LYRICS": "[Verse]\n[Male Vocal: rapid rap delivery]\nНовый поворот\n[Chorus]\n[Female Vocal: whispering]\nНас дорога ждёт",
+      "STYLES": "Male rap verses, female whispered chorus",
+      "MOREOPTIONS": "Vocal Gender: none | Duration: Auto | Max Mode: Off | Weirdness: 40% | Style Influence: 80% | Variety: Off | Personalize: Off\nExclude: ambient"
+    },
+    "model": "v6-mini",
+    "exclude": "ambient",
+    "counts": {
+      "LYRICS": 106,
+      "STYLES": 40
+    }
+  },
+  {
+    "id": "vocal-insertions",
+    "chunk": "TRACK:->\n\nTest composition\n\nLYRICS:->\n\n[Intro]\n[Male Vocal: calm spoken word]\nПовернись, я здесь\n[Verse]\n[Female Vocal: soft singing]\nЯ вернусь домой\n[Ad-libs: whispered response]\nЯ вернусь\n[Chorus]\n[Duet]\nНаши голоса\n\nSTYLES:->\n\nMale spoken intro, female lead and ad-libs, shared final refrain\n\nMOREOPTIONS:->\n\nVocal Gender: none | Duration: Auto | Max Mode: Off | Weirdness: 40% | Style Influence: 80% | Variety: Off | Personalize: Off\nExclude: ambient\n\nINFO:->\n\nsummary: fixture; model: v6-mini; lang: none; gen_model: unknown; gen_time: ?",
+    "expected": {
+      "TRACK": "Test composition",
+      "LYRICS": "[Intro]\n[Male Vocal: calm spoken word]\nПовернись, я здесь\n[Verse]\n[Female Vocal: soft singing]\nЯ вернусь домой\n[Ad-libs: whispered response]\nЯ вернусь\n[Chorus]\n[Duet]\nНаши голоса",
+      "STYLES": "Male spoken intro, female lead and ad-libs, shared final refrain",
+      "MOREOPTIONS": "Vocal Gender: none | Duration: Auto | Max Mode: Off | Weirdness: 40% | Style Influence: 80% | Variety: Off | Personalize: Off\nExclude: ambient"
+    },
+    "model": "v6-mini",
+    "exclude": "ambient",
+    "counts": {
+      "LYRICS": 178,
+      "STYLES": 64
+    }
+  },
+  {
+    "id": "multiline-styles",
+    "chunk": "TRACK:->\n\nTest composition\n\nLYRICS:->\n\n[Intro]\n[Instrumental]\n\nSTYLES:->\n\nGenre: acid house\nStyle: 124 BPM, A minor\nVocals: instrumental, no vocal sounds\nMain theme: short resonant motif\nInstruments: dry drums\nBass: sub foundation\nMood: restrained tension\n\nMOREOPTIONS:->\n\nVocal Gender: none | Duration: Auto | Max Mode: Off | Weirdness: 40% | Style Influence: 80% | Variety: Off | Personalize: Off\nExclude: ambient\n\nINFO:->\n\nsummary: fixture; model: v6-mini; lang: none; gen_model: unknown; gen_time: ?",
+    "expected": {
+      "TRACK": "Test composition",
+      "LYRICS": "[Intro]\n[Instrumental]",
+      "STYLES": "Genre: acid house\nStyle: 124 BPM, A minor\nVocals: instrumental, no vocal sounds\nMain theme: short resonant motif\nInstruments: dry drums\nBass: sub foundation\nMood: restrained tension",
+      "MOREOPTIONS": "Vocal Gender: none | Duration: Auto | Max Mode: Off | Weirdness: 40% | Style Influence: 80% | Variety: Off | Personalize: Off\nExclude: ambient"
+    },
+    "model": "v6-mini",
+    "exclude": "ambient",
+    "counts": {
+      "LYRICS": 22,
+      "STYLES": 181
+    }
+  }
+]

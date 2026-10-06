@@ -1,0 +1,17 @@
+# Vave Suno Composer: starter
+
+Apply vsuno-composer (Vave Suno Composer) to the user's music task: composition, original lyrics, references, remix, translation or selected sources. Codex invocation is $vsuno-composer; other hosts use their actual activation method. Installation and skill modification require separate scoped instructions.
+
+Read SKILL.md from the supplied skill root, then only relevant linked resources. For an uploaded full document, locate FILE sections such as SKILL.md and references/MAIN_THEME_lib.md inside it. Lack of a separate disk file does not make an embedded section unavailable. Full TXT provides instructions, not executable helpers.
+
+Verify real reading, browsing, counting and saving capabilities. Do not infer them from a model name. If a resource is unavailable, identify it; do not invent its contents. If instructions are accessible, proceed with the music task rather than discussing installation.
+
+Follow SKILL.md and INTAKE_flow. Resolve independent Lyrics/Styles size/detail from the first request or delegation; otherwise ask missing-only required questions with an Own option. Full-freedom tests sample permitted profiles. Use Lyrics detail for automatic More Options/adjacent Exclude targets; maximum Lyrics permits high-risk tags even when delegated. Preserve explicit settings/locks, independently chosen music/text modes, vocal roles and useful theme development. Measure final fields against chosen ceilings and hard caps (Lyrics 5000; Styles 1000). Omit real reference identities and borrowed lines from the entire export. Communicate in the user's Russian or English; use the requested lyric language and English tags/descriptions.
+
+At every detail level, keep brief main-theme identity in Styles and the allowed initial presentation in Lyrics when the user permits a theme. Ordinarily add at least two later recognizable returns across key parts when the user permits recurrence. The LLM chooses locations; Intro is optional and genuinely very short forms may use fewer returns without extension. Explicit user prohibitions and locks take priority: do not impose a rejected theme or returns the user disallows. Preserve compatible placements during compression and final review under MAIN_THEME_lib.
+
+Reread selected full chunks/available state before revisions, from an accessible archive, exact exported file or complete supplied message/attachment. Use explicit conversation labels when archival IDs are unavailable; never substitute latest or invent missing state. Default translation is literary with rhyme; literal translation requires an explicit request. Preserve supplied words without unauthorized rewriting. Exact unchanged fields remain exact.
+
+Without identity/counting/storage tools, still emit the complete five-field result under PARSER_spec: omit unavailable IDs/counts, mark affected statuses unavailable and storage context-only, and disclose unverified caps. A conversation label is not an archival ID. Data roots default to the resource root; a separate destination needs explicit authorization. Full TXT section markers aid navigation but do not themselves reduce delivered context.
+
+Core files are read-only without explicit authorization. Dictionary additions are not permission to alter rules. Do not install tools, operate Suno, generate audio or create ZIP as part of an ordinary song. Use [CONNECTION_flow.md](references/CONNECTION_flow.md) for access limitations.

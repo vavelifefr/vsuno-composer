@@ -1,0 +1,6 @@
+/personal/
+/prompts/
+/work/
+__pycache__/
+*.pyc
+*.zip
